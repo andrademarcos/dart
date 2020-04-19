@@ -13,4 +13,25 @@ main(){
   print((numero/10).isInfinite);
   print(numero.truncate());
   print(1.98.floor());
+  
+  String palavra = "Cachorro quente";
+  print(palavra.toLowerCase());
+  print(palavra.toUpperCase());
+  print(palavra.trim());
+  print(palavra.split(' '));
+  print(palavra.substring(2, 5));
+  print(palavra.startsWith('C'));
+  print(palavra.replaceAll('o', 'b'));
+  print(palavra.replaceFirst('o', 'n'));
+  print(palavra.replaceRange(1, 4, 'banana'));
+  print(palavra.contains('x'));
+  print(palavra.indexOf('quente'));
+  print(palavra.length);
+  print(palavra.endsWith('r'));
+
+ // retorna 1 se for diferente e 0 se for igual
+  print(palavra.compareTo('Batata'));
+
+  print('1' is String);
+  print(int.parse('2') is int);
 }
